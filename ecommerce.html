@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce UTS</title>
+    <script src="./jquery-3-5.js"></script>
+    <script src="./icons.js"></script>
+    <link rel="stylesheet" href="./ecommerce.css" />
+  </head>
+  <body>
+    <!-- Content -->
+
+    <!-- Header -->
+    <nav>
+      <div class="logo">
+        <a href="./ecommerce.html">
+          <h4>KEPO SECOND</h4>
+        </a>
+      </div>
+      <ul>
+        <li><a href="#slider">Home</a></li>
+        <li><a href="#iconFeatures">Features</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#testimonials">Testimonial</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="topnav">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <!-- End Header -->
+
+    <!-- Slider -->
+    <div class="slider" id="slider">
+      <button class="buttonSlideLeft" onclick="minDivs(-1)">&#10094;</button>
+      <button class="buttonSlideRight" onclick="plusDivs(1)">&#10095;</button>
+      <div class="sliderWrapper">
+        <div class="sliderItem">
+          <img
+            src="./images_ecommerce/slide-product1.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            SHIRT<br />
+            SECOND<br />
+            COOL
+          </h1>
+          <h2 class="sliderPrice">Rp. 70.000</h2>
+          <a href="./ecommerceProducts.html">
+            <button class="buyButton">MORE PRODUCTS!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img
+            src="./images_ecommerce/slide-product2.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            JACKET<br />
+            SECOND<br />
+            COOL
+          </h1>
+          <h2 class="sliderPrice">Rp. 120.000</h2>
+          <a href="./ecommerceProducts.html">
+            <button class="buyButton">MORE PRODUCTS!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img
+            src="./images_ecommerce/slide-product3.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            SHOES<br />
+            SECOND<br />
+            COOL
+          </h1>
+          <h2 class="sliderPrice">Rp. 150.000</h2>
+          <a href="./ecommerceProducts.html">
+            <button class="buyButton">MORE PRODUCTS!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img
+            src="./images_ecommerce/slide-product4.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            TROUSERS<br />
+            SHORT<br />
+            SECOND
+          </h1>
+          <h2 class="sliderPrice">Rp. 80.000</h2>
+          <a href="./ecommerceProducts.html">
+            <button class="buyButton">MORE PRODUCTS!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img
+            src="./images_ecommerce/slide-product5.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            TROUSERS<br />
+            LONG<br />
+            SECOND
+          </h1>
+          <h2 class="sliderPrice">Rp. 50.000</h2>
+          <a href="./ecommerceProducts.html">
+            <button class="buyButton">MORE PRODUCTS!</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Slider -->
+
+    <!-- Icon -->
+    <div class="iconFeatures" id="iconFeatures">
+      <div class="iconFeature">
+        <i class="fas fa-shipping-fast iconFeatureIcon"></i>
+        <span class="iconFeatureTitle">FAST SHIPPING</span>
+        <span class="iconFeatureDesc"
+          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+          id?.</span
+        >
+      </div>
+      <div class="iconFeature">
+        <i class="fas fa-trophy iconFeatureIcon"></i>
+        <span class="iconFeatureTitle">DISKON SHIPPING</span>
+        <span class="iconFeatureDesc"
+          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+          id?.</span
+        >
+      </div>
+      <div class="iconFeature">
+        <i class="fas fa-shopping-cart iconFeatureIcon"></i>
+        <span class="iconFeatureTitle">AVAILABLE ITEM</span>
+        <span class="iconFeatureDesc"
+          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+          id?.</span
+        >
+      </div>
+      <div class="iconFeature">
+        <i class="fas fa-id-card iconFeatureIcon"></i>
+        <span class="iconFeatureTitle">CONTACT US</span>
+        <span class="iconFeatureDesc"
+          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+          id?.</span
+        >
+      </div>
+    </div>
+    <!-- End Icon -->
+
+    <!-- About -->
+    <div class="about" id="about">
+      <div class="col-1">
+        <div class="sc">
+          <img src="./images_ecommerce/img_about.jpg" alt="" />
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="about-content">
+          <h2>KEPO SECOND</h2>
+          <hr class="hrTitleLeft" />
+          <p>
+            Kepo Second merupakan sebuah toko online yang menjual barang second,
+            mulai dari kaos, baju, jaket, celana pendek, celana panjang hingga
+            sepatu.
+          </p>
+          <p>
+            Kepo Second berdiri pada tahun 2020 dan berlokasi di Jl. Kesumba No.
+            9, Lawukwaru, Kota Malang.
+          </p>
+          <p>
+            Barang yang kami jual adalah barang yang sudah pernah dipakai oleh
+            orang lain, namun barang tersebut masih layak dipakai dan masih
+            terlihat bagus.
+          </p>
+          <a href="./ecommerceProducts.html">MORE PRODUCTS!</a>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Product -->
+    <div class="products" id="products">
+      <p class="rowTitle">PRODUCTS</p>
+      <div class="hrTitle"></div>
+      <button class="buttonSlideLeft" onclick="minProduct(-1)">&#10094;</button>
+      <button class="buttonSlideRight" onclick="plusProduct(1)">
+        &#10095;
+      </button>
+      <div class="products-row">
+        <div class="product">
+          <span class="productPrice">Rp. 150.000</span>
+          <img class="productImg" src="./images_ecommerce/productJacket1.png" />
+          <span class="productTitle">JAKET KEREN</span>
+          <span class="productDesc"
+            >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span
+          >
+          <button class="productButton">Buy Now</button>
+        </div>
+        <div class="product">
+          <span class="productPrice">Rp. 80.000</span>
+          <img class="productImg" src="./images_ecommerce/productShirt1.png" />
+          <span class="productTitle">KAOS KEREN</span>
+          <span class="productDesc"
+            >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span
+          >
+          <button class="productButton">Buy Now</button>
+        </div>
+        <div class="product">
+          <span class="productPrice">Rp. 120.000</span>
+          <img class="productImg" src="./images_ecommerce/productShoes1.png" />
+          <span class="productTitle">SEPATU KEREN</span>
+          <span class="productDesc"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+          >
+          <button class="productButton">Buy Now</button>
+        </div>
+        <div class="product">
+          <span class="productPrice">Rp. 80.000</span>
+          <img
+            class="productImg"
+            src="./images_ecommerce/productTrousers2.png"
+          />
+          <span class="productTitle">CELANA KEREN</span>
+          <span class="productDesc"
+            >Lorem ipsum dolor sit, amet consectetur adipisicing elit..</span
+          >
+          <button class="productButton">Buy Now</button>
+        </div>
+        <div class="product">
+          <span class="productPrice">Rp. 150.000</span>
+          <img class="productImg" src="./images_ecommerce/productJacket7.png" />
+          <span class="productTitle">JAKET KEREN</span>
+          <span class="productDesc"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span
+          >
+          <button class="productButton">Buy Now</button>
+        </div>
+        <div class="product">
+          <span class="productPrice">Rp. 100.000</span>
+          <img class="productImg" src="./images_ecommerce/productShirt3.png" />
+          <span class="productTitle">KAOS</span>
+          <span class="productDesc"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+          >
+          <button class="productButton">Buy Now</button>
+        </div>
+        <div class="product">
+          <span class="productPrice">Rp. 120.000</span>
+          <img
+            class="productImg"
+            src="./images_ecommerce/productTrousers6.png"
+          />
+          <span class="productTitle">CELANA KEREN</span>
+          <span class="productDesc"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+          >
+          <button class="productButton">Buy Now</button>
+        </div>
+        <div class="product">
+          <span class="productPrice">Rp. 160.000</span>
+          <img class="productImg" src="./images_ecommerce/productShoes5.png" />
+          <span class="productTitle">SEPATU KEREN</span>
+          <span class="productDesc"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+          >
+          <button class="productButton">Buy Now</button>
+        </div>
+      </div>
+      <a href="./ecommerceProducts.html" class="buttonAllProducts"
+        >MORE PRODUCTS!</a
+      >
+    </div>
+    <!-- End Product -->
+
+    <!-- Testimonial -->
+    <div class="testimonials" id="testimonials">
+      <p class="rowTitle">TESTIMONIAL</p>
+      <div class="hrTitle"></div>
+      <button class="buttonSlideLeft" onclick="minTesti(-1)">&#10094;</button>
+      <button class="buttonSlideRight" onclick="plusTesti(1)">&#10095;</button>
+      <div class="testimonials-row">
+        <div class="testimoniSliderItem">
+          <div class="testimoniSliderBg">
+            <img
+              src="./images_ecommerce/userMale.jpg"
+              alt=""
+              class="testimoniSliderImg"
+            />
+          </div>
+          <h1 class="testimoniSliderTitle">"Muhammad Hatta"</h1>
+          <p class="testimoniSliderDesc">
+            Barang yang saya beli sangat bagus dan layak dipakai.
+          </p>
+        </div>
+        <div class="testimoniSliderItem">
+          <div class="testimoniSliderBg">
+            <img
+              src="./images_ecommerce/userFamale.png"
+              alt=""
+              class="testimoniSliderImg"
+            />
+          </div>
+          <h1 class="testimoniSliderTitle">"Ervina Karim"</h1>
+          <p class="testimoniSliderDesc">
+            Barang di Kepo Second sangat bagus bahkan hampir mirip dengan yang
+            baru.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial -->
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+      <p class="rowTitle">CONTACT</p>
+      <div class="hrTitle"></div>
+      <div class="form-row">
+        <div class="form-col2">
+          <input type="text" placeholder="Your Name*" />
+          <input type="text" placeholder="Your Email*" />
+          <input type="text" placeholder="Your Phone (Optional)" />
+          <input type="text" placeholder="Topic (Optional)" />
+        </div>
+        <div class="form-col1">
+          <textarea placeholder="Message*"></textarea>
+        </div>
+        <button>SEND MESSAGE*</button>
+      </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Modal -->
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-row">
+          <div class="col1">
+            <img src="./images_ecommerce/slide-product2.png" alt="" />
+          </div>
+          <div class="col2">
+            <h1 class="title">JACKET SECOND</h1>
+            <div class="hrTitleLeft"></div>
+            <p class="price">Rp. 150.000</p>
+            <p class="desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea sequi
+              ad corporis laborum ipsa eius atque veritatis dolorem doloremque
+              voluptatum unde itaque tempora possimus ipsam, non laboriosam
+              optio temporibus suscipit officiis consectetur excepturi ratione
+              laudantium molestias fugiat? Magni distinctio quisquam, quibusdam
+              nostrum, ipsum sit tempora iure debitis cumque ea veniam.
+            </p>
+            <button class="button">CHECKOUT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <p>©copyright 2022 Muhammad Hatta</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- End Content -->
+
+    <script src="./ecommerce.js" defer></script>
+  </body>
+</html>

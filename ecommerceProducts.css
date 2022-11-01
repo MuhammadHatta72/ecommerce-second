@@ -1,0 +1,598 @@
+/* Shirt */
+.shirts {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.shirts .buttonSlideLeft {
+  background: transparent;
+  /* position: relative;
+    margin-top: 190px; */
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #61199c;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  z-index: 1;
+}
+
+.shirts .buttonSlideRight {
+  background: transparent;
+  float: right;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #61199c;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  z-index: 1;
+}
+
+.shirts .shirts-row {
+  margin: 0px 50px 20px 50px;
+  display: flex;
+  gap: 20px;
+  width: 500vw;
+  transition: all 1.5s ease-in-out;
+}
+
+.shirts-row .shirt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  border-radius: 10px;
+  border: 2px dashed #61199c;
+  background: #fffce5;
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+  transition: 0.9s;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.shirts-row .shirt:hover {
+  border: 2px solid #a253e3;
+  background: #fef5ac;
+  webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  transition: all 0.9s ease;
+}
+
+.shirts-row .shirtPrice {
+  color: #61199c;
+  position: relative;
+  margin-top: -30px;
+  margin-left: -200px;
+}
+
+.shirts-row .shirtImg {
+  width: 150px;
+}
+
+.shirts-row .shirtTitle {
+  color: #25316d;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0px 10px 0px;
+}
+
+.shirts-row .shirtDesc {
+  color: gray;
+  width: 70%;
+  height: 60px;
+}
+
+.shirts-row .shirtButton {
+  border: 1px dashed gray;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  transition: 0.8s;
+}
+
+.shirts-row .shirtButton:hover {
+  background: linear-gradient(180deg, #25316d 0%, #5f6f94 100%);
+}
+
+/* Jackets */
+.jackets {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.jackets .buttonSlideLeft {
+  background: transparent;
+  /* position: relative;
+      margin-top: 190px; */
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #61199c;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  z-index: 1;
+}
+
+.jackets .buttonSlideRight {
+  background: transparent;
+  float: right;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #61199c;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  z-index: 1;
+}
+
+.jackets .jackets-row {
+  margin: 0px 50px 20px 50px;
+  display: flex;
+  gap: 20px;
+  width: 500vw;
+  transition: all 1.5s ease-in-out;
+}
+
+.jackets-row .jacket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  border-radius: 10px;
+  border: 2px dashed #61199c;
+  background: #fffce5;
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+  transition: 0.9s;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.jackets-row .jacket:hover {
+  border: 2px solid #a253e3;
+  background: #fef5ac;
+  webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  transition: all 0.9s ease;
+}
+
+.jackets-row .jacketPrice {
+  color: #61199c;
+  position: relative;
+  margin-top: -30px;
+  margin-left: -200px;
+}
+
+.jackets-row .jacketImg {
+  width: 150px;
+}
+
+.jackets-row .jacketTitle {
+  color: #25316d;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0px 10px 0px;
+}
+
+.jackets-row .jacketDesc {
+  color: gray;
+  width: 70%;
+  height: 60px;
+}
+
+.jackets-row .jacketButton {
+  border: 1px dashed gray;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  transition: 0.8s;
+}
+
+.jackets-row .jacketButton:hover {
+  background: linear-gradient(180deg, #25316d 0%, #5f6f94 100%);
+}
+
+/* Trousers */
+.trouserss {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.trouserss .buttonSlideLeft {
+  background: transparent;
+  /* position: relative;
+        margin-top: 190px; */
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #61199c;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  z-index: 1;
+}
+
+.trouserss .buttonSlideRight {
+  background: transparent;
+  float: right;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #61199c;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  z-index: 1;
+}
+
+.trouserss .trouserss-row {
+  margin: 0px 50px 20px 50px;
+  display: flex;
+  gap: 20px;
+  width: 500vw;
+  transition: all 1.5s ease-in-out;
+}
+
+.trouserss-row .trousers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  border-radius: 10px;
+  border: 2px dashed #61199c;
+  background: #fffce5;
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+  transition: 0.9s;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.trouserss-row .trousers:hover {
+  border: 2px solid #a253e3;
+  background: #fef5ac;
+  webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  transition: all 0.9s ease;
+}
+
+.trouserss-row .trousersPrice {
+  color: #61199c;
+  position: relative;
+  margin-top: -30px;
+  margin-left: -200px;
+}
+
+.trouserss-row .trousersImg {
+  width: 150px;
+}
+
+.trouserss-row .trousersTitle {
+  color: #25316d;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0px 10px 0px;
+}
+
+.trouserss-row .trousersDesc {
+  color: gray;
+  width: 70%;
+  height: 60px;
+}
+
+.trouserss-row .trousersButton {
+  border: 1px dashed gray;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  transition: 0.8s;
+}
+
+.trouserss-row .trousersButton:hover {
+  background: linear-gradient(180deg, #25316d 0%, #5f6f94 100%);
+}
+
+/* Shoes */
+.shoess {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.shoess .buttonSlideLeft {
+  background: transparent;
+  /* position: relative;
+          margin-top: 190px; */
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #61199c;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  z-index: 1;
+}
+
+.shoess .buttonSlideRight {
+  background: transparent;
+  float: right;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #61199c;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  z-index: 1;
+}
+
+.shoess .shoess-row {
+  margin: 0px 50px 20px 50px;
+  display: flex;
+  gap: 20px;
+  width: 500vw;
+  transition: all 1.5s ease-in-out;
+}
+
+.shoess-row .shoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  border-radius: 10px;
+  border: 2px dashed #61199c;
+  background: #fffce5;
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+  transition: 0.9s;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.shoess-row .shoes:hover {
+  border: 2px solid #a253e3;
+  background: #fef5ac;
+  webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  transition: all 0.9s ease;
+}
+
+.shoess-row .shoesPrice {
+  color: #61199c;
+  position: relative;
+  margin-top: -30px;
+  margin-left: -200px;
+}
+
+.shoess-row .shoesImg {
+  width: 150px;
+}
+
+.shoess-row .shoesTitle {
+  color: #25316d;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0px 10px 0px;
+}
+
+.shoess-row .shoesDesc {
+  color: gray;
+  width: 70%;
+  height: 60px;
+}
+
+.shoess-row .shoesButton {
+  border: 1px dashed gray;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  transition: 0.8s;
+}
+
+.shoess-row .shoesButton:hover {
+  background: linear-gradient(180deg, #25316d 0%, #5f6f94 100%);
+}
+
+/* ModalShirt */
+.modalShirt {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content .closeShirt {
+  color: white;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.modal-content .closeShirt:hover {
+  cursor: pointer;
+}
+
+.shirtButton {
+  cursor: pointer;
+}
+
+/* ModalJacket */
+.modalJacket {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content .closeJacket {
+  color: white;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.modal-content .closeJacket:hover {
+  cursor: pointer;
+}
+
+.jacketButton {
+  cursor: pointer;
+}
+
+/* ModalTrousers */
+.modalTrousers {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content .closeTrousers {
+  color: white;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.modal-content .closeTrousers:hover {
+  cursor: pointer;
+}
+
+.trousersButton {
+  cursor: pointer;
+}
+
+/* ModalShoes */
+.modalShoes {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content .closeShoes {
+  color: white;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.modal-content .closeShoes:hover {
+  cursor: pointer;
+}
+
+.shoesButton {
+  cursor: pointer;
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  /* Shirt */
+  .shirts-row .shirtPrice {
+    margin-left: -120px;
+  }
+
+  /* Jackets */
+  .jackets-row .jacketPrice {
+    margin-left: -120px;
+  }
+
+  /* Trousers */
+  .trouserss-row .trousersPrice {
+    margin-left: -120px;
+  }
+
+  /* Shoes */
+  .shoess-row .shoesPrice {
+    margin-left: -120px;
+  }
+}
